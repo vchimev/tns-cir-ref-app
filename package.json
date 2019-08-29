@@ -13,11 +13,11 @@
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
   "dependencies": {
-    "circular-dependency-plugin": "^5.2.0",
     "nativescript-theme-core": "~1.0.6",
-    "tns-core-modules": "~6.0.0"
+    "tns-core-modules": "next"
   },
   "devDependencies": {
+    "circular-dependency-plugin": "~5.2.0",
     "nativescript-dev-webpack": "~1.1.0",
     "typescript": "~3.5.3"
   },

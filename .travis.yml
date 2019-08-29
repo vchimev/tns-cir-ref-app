@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "node"
+script:
+- npm install
+- node_modules/.bin/webpack --env.android
+- node_modules/.bin/webpack --env.ios

@@ -12,8 +12,8 @@ const { NativeScriptWorkerPlugin } = require("nativescript-worker-loader/NativeS
 const TerserPlugin = require("terser-webpack-plugin");
 const hashSalt = Date.now().toString();
 
-const ANDROID_MAX_CYCLES = 57;
-const IOS_MAX_CYCLES = 30;
+const ANDROID_MAX_CYCLES = 63;
+const IOS_MAX_CYCLES = 34;
 let numCyclesDetected = 0;
 
 module.exports = env => {

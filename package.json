@@ -13,7 +13,7 @@
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
   "dependencies": {
-    "nativescript-theme-core": "~1.0.6",
+    "nativescript-theme-core": "latest",
     "tns-core-modules": "next"
   },
   "devDependencies": {
